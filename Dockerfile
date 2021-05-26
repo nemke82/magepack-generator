@@ -1,4 +1,4 @@
-FROM busybox
+FROM debian:buster-slim
 
 USER root
 # Install Chrome and Chromium
