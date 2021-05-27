@@ -1,4 +1,8 @@
-FROM debian:buster-slim
+FROM debian:buster
+
+RUN apt-get update -y
+RUN apt-get install wget -y
+RUN apt-get install curl -y
 
 USER root
 # Install Chrome and Chromium
