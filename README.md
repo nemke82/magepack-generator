@@ -3,7 +3,7 @@ Tool to generate magesuite/magepack configuration file
 
 Run docker image with: <BR>
 ```
-docker run -t -i --rm magepack-generator bash
+docker run -t -i --rm nemke82/magepack-generator bash
 ```
 
 Then generate magepack.config.js using following command (substitute with real domain name):
